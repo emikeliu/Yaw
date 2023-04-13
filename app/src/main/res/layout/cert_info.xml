@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:background="@drawable/round_background"
+    android:backgroundTint="?colorSurface"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/round_warning_amber_24"
+        android:id="@+id/safe_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:textSize="20sp"
+        android:text="@string/not_secure"
+        android:layout_weight="1"
+        android:id="@+id/safe_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="100dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/web_setting_button"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:text="@string/web_setting"/>
+        <com.google.android.material.button.MaterialButton
+            android:visibility="gone"
+            android:id="@+id/cert_info_button"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:text="@string/cert_info"/>
+    </LinearLayout>
+</LinearLayout>
