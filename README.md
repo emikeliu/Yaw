@@ -18,6 +18,12 @@ Yaw 是一款基于 WebView 的, 完全开源的网络浏览器, 并扩展了一
 5. 以 Pretty Print 的方式显示网页源代码<br/>
 6. 支持无痕浏览<br/>
 7. 基于 Material You 主题构建, 支持跟随主题色自动变色(需要 Android 版本支持)<br/>
-8. 不请求多余权限
+8. 不请求多余权限<br/>
 
+## Screenshots
 
+<img src="https://raw.githubusercontent.com/zzqdhaor/Yaw/main/Screenshot_2023-04-13-10-45-38-536_zq.yaw.jpg" width="360" height="840">
+<img src="https://raw.githubusercontent.com/zzqdhaor/Yaw/main/Screenshot_2023-04-13-10-46-56-041_zq.yaw.jpg" width="360" height="840">
+<img src="https://raw.githubusercontent.com/zzqdhaor/Yaw/main/Screenshot_2023-04-13-10-45-49-750_zq.yaw.jpg" width="360" height="840">
+<img src="https://raw.githubusercontent.com/zzqdhaor/Yaw/main/Screenshot_2023-04-13-10-46-28-064_zq.yaw.jpg" width="360" height="840">
+<img src="https://raw.githubusercontent.com/zzqdhaor/Yaw/main/Screenshot_2023-04-13-10-45-46-594_zq.yaw.jpg" width="360" height="840">
